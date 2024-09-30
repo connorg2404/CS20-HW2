@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Contact - The Fearless Coaster Project </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        div.form {
+            padding: 5px;
+            border: 2px solid #ffffff;
+            width: 40%;
+            margin: 0 auto;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <img src="Images/FCPLogo.jpg" height="100">
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+        </ul>
+    </div>
+    <h2 style="text-align:center"> Fill out the following form to book an appointment for our services. </h2>
+    <div class="form">
+        <form action='#' method='get'>
+            Name: <input type="text" name='name' id='the_name' style="width: 200px; height: 20px">
+
+            <br /><br />
+            Age: <input type = "number" style="width: 200px; height: 20px">
+
+            <br /><br />
+            Please pick a park to attend (more parks to come in the future): <br />
+                <input type="radio" name="park" value="CedarPoint">Cedar Point - Sandusky, OH <br />
+                <input type="radio" name="park" value="KingsIsland">Kings Island - Dayton, OH <br />
+                <input type="radio" name="park" value="Kennywood">Kennywood - Pittsburgh, PA <br />
+                <input type="radio" name="park" value="Hersheypark">Hersheypark - Hershey, PA <br />
+                <input type="radio" name="park" value="DorneyPark">Dorney Park - Allentown, PA
+
+            <br /><br />
+            Choose a reservation time:
+            <select name="Time" style="width: 150px; height: 20px">
+                <option value="11am">11:00am EST</option>
+                <option value="1130am">11:30am EST</option>
+                <option value="12pm">12:00pm EST</option>
+                <option value="1230pm">12:30pm EST</option>
+                <option value="1pm">1:00pm EST</option>
+                <option value="130pm">1:30pm EST</option>
+                <option value="2pm">2:00pm EST</option>
+                <option value="230pm">2:30pm EST</option>
+                <option value="3pm">3:00pm EST</option>
+            </select>
+
+            <br /><br />
+            <input type = "submit" value = "Book!">
+        
+        </form>
+    </div>
+    <p style="text-align:center; font-size: 24px;"> *Contact information is located on the footer* </p>
+    <div class="footer">
+        Mailing Address: 345 Main St, Sandusky, OH
+        <br />
+        Email: fearlesscoasterproject@gmail.com
+        <br />
+        Phone: 216-555-9213
+    </div>
+</body>
+</html>
